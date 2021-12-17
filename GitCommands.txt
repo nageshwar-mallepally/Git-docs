@@ -1,0 +1,62 @@
+git remote set-url origin <url>
+
+git diff masterbranch..featurebranch
+
+git revert
+
+$ git reset --hard HEAD       (going back to HEAD)
+
+$ git reset --hard HEAD^      (going back to the commit before HEAD)
+
+$ git reset --hard HEAD~2     (going back two commits before HEAD)
+
+
+list the tags
+
+git tag (list the available tags)
+git tag -n (list the available tags with discription)
+git tag -l v1 (v1 pattern tags will display)
+git tag -l --sort=-version:refname <pattern>
+git describe (latest tag will display)
+git fetch --tags 
+
+create branch using tags
+
+syntax: git checkout tags<tagname> -b <branch-name>
+git checkout tags/v1.0 -b v1.0-branch
+
+git log --oneline --graph (to check the HEAD point for both created by tag and created branch)
+
+
+git reset --soft HEAD~1 (To undo last git commit)
+
+
+git rm --cached . (To clear the git cache)
+git rm -r --cached . (To clear the cache recursively)
+
+
+Upstream branch commands:
+git push -u <remote> <branch>
+git push --set-upstream <remote> <branch>
+git branch -vv
+
+
+$ git rm <file>
+
+$ git commit -m "Deleted the file from the git repository"
+
+$ git push
+$ git ls-tree -r master ( To see the files tree in git)
+$ git rm -r <folder> (To delete folder)
+
+$ git tag <tagName> (To create tag)
+
+
+$ git checkout HEAD -- .gitignore
+
+$ git push -u origin dev (To push dev branch into remote)
+
+
+
+git checkout [branchYouWantToReceiveBranch] - checkout branch you want to receive branch
+git merge [branchYouWantToMergeIntoBranch]

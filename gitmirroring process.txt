@@ -1,0 +1,10 @@
+pull code from assembla
+create new repository in git
+go to assembla directory
+git push --mirror https://github.com/cassiniplm/cassinisys.plugins.git
+To push the code into github
+
+$2a$10$6o2.BYUXTKarCw8bcRCIQeqFjuVZugeZIVNMuDNLJWUtE7pioPNh.
+$2y$16$IKhVEp0k/649vc2gRkU0b.PEFZYT38MdWKFniiTA.LjNBk7OTFEw.
+$2a$10$obVTeK7h/NcihDIfxjcNge9zHxN.BR4yZhpJBauBWuYBZAN2kDZvG
+$2a$10$7XAu2GDIAD5gw/WOOdd3eOUetrgQ.y7OtzilEq4LREl2ZC/jnWEuy
